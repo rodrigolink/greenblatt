@@ -2,6 +2,11 @@ import streamlit as st
 import pandas as pd
 import requests
 
+st.set_page_config(
+   page_title="Fórmula Mágica de Greenblatt"
+)
+
+
 url = 'http://www.fundamentus.com.br/resultado.php'
 header = {
   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36"  
