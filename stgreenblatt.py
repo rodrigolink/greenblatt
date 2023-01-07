@@ -3,7 +3,9 @@ import pandas as pd
 import requests
 
 st.set_page_config(
-   page_title="Fórmula Mágica de Greenblatt"
+   page_title="Fórmula Mágica de Greenblatt",
+   layout="wide",
+
 )
 
 
